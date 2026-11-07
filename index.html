@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Free Wi-Fi Access</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #f9fafb;
+            --card-bg: #ffffff;
+            --border-color: #e5e7eb;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #111827;
+        }
+
+        .meta-date {
+            font-size: 0.875rem;
+            color: #6b7280;
+            margin-top: 0.25rem;
+        }
+
+        .print-btn {
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .print-btn:hover {
+            background-color: #f3f4f6;
+            border-color: #d1d5db;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            color: #111827;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #4b5563;
+        }
+
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            color: #4b5563;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background-color: #eff6ff;
+            border-left: 4px solid var(--primary-color);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #1e3a8a;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+            .container {
+                padding: 1.5rem;
+            }
+            header {
+                flex-direction: column;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+            }
+            .print-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div>
+                <h1>Terms of Service</h1>
+                <p class="meta-date">Last Updated: November 2026</p>
+            </div>
+            <button class="print-btn" onclick="window.print()">Print Page</button>
+        </header>
+
+        <div class="highlight-box">
+            <p>By connecting to our free Wi-Fi service, you agree to comply with the terms and conditions outlined below. If you disagree, please disconnect immediately.</p>
+        </div>
+
+        <section>
+            <h2>1. Service Availability & Performance</h2>
+            <p>This network is provided free of charge on an "as is" and "as available" basis. We do not guarantee uninterrupted access, specific data transfer speeds, or an absolute defense against malicious network activities. We reserve the right to suspend or terminate access at any time without notice.</p>
+        </section>
+
+        <section>
+            <h2>2. Acceptable Use Policy</h2>
+            <p>You agree to use this internet connection exclusively for lawful purposes. Prohibited activities include, but are not limited to:</p>
+            <ul>
+                <li>Violating local, national, or international laws or regulations.</li>
+                <li>Hosting, downloading, or distributing copyrighted materials without permission (e.g., torrenting).</li>
+                <li>Transmitting malicious files, viruses, worms, or trojans.</li>
+                <li>Engaging in unauthorized scanning or cyber-attacks against other network devices.</li>
+                <li>Consuming disproportionate amounts of bandwidth that negatively impacts other users.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Privacy & Security Notice</h2>
+            <p><strong>This is an open public network.</strong> Communications over an unencrypted wireless connection can be intercepted by third parties. You are solely responsible for protecting your device against malware and utilizing tools like Virtual Private Networks (VPNs) or secure protocol layers (HTTPS) to shield your sensitive information.</p>
+        </section>
+
+        <section>
+            <h2>4. Limitation of Liability</h2>
+            <p>The network provider, its management, and affiliates are not liable for any financial losses, hardware damages, or direct/indirect data breaches incurred while utilizing this connection. You assume total responsibility and risk for your network activities.</p>
+        </section>
+    </div>
+
+</body>
+</html>
